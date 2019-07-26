@@ -1,0 +1,40 @@
+.clear {clear: both;}
+html ,body{height:100%;}
+form{ margin:0; padding:0;}
+img {border:0px;}
+a img {border: none; } 
+/**/
+#preloader { background-image:url(../images/manbbg.jpg); width: 0px; height: 0px; display: inline; }
+#preloader2 { background-image:url(../images/clouds_header.jpg); width: 0px; height: 0px; display: inline;}
+#preloader3 { background-image:url(../images/gtopbg.jpg); width: 0px; height: 0px; display: inline; }
+#preloader4 { background-image:url(../images/myflash.jpg); width: 0px; height: 0px; display: inline; }
+/**/
+ul,li{list-style-type: none; padding:0; margin:0;}
+div,ul, ol, li, h1,h2, p{margin:0;padding:0}
+body{ background:#fff url(../images/bg.jpg); margin:0; padding:0}
+.homePage{ width:850px;margin:0 auto; padding-top:70px;}
+.bgLeft{ background:url(../images/bg-left.jpg) no-repeat left top;}
+.bgRight{background:url(../images/bg-right.jpg) no-repeat right top;min-width:1250px;}
+.bg{ background:url(../images/bg.jpg) repeat-y;}
+.MainPage{width:800px; margin:0px auto; height:auto;}
+.leftbg{background:url(../images/mainleftbg.jpg) no-repeat left top; margin: 0px 239px 0px 43px;}
+.maintopbg{background:url(../images/maintopbg.jpg) no-repeat left top; padding:18px 0px 0px 18px;}
+
+
+
+.flbg{ background-color:#fff;}
+.fcbg{background-image:url(../images/manbbg.jpg);background-position:center bottom; background-repeat:no-repeat;_height:830px;}
+
+
+
+.pagetop{width:935px; height:75px; margin:0 auto;}
+.clouds{border-bottom:1px solid #c6c6c6; overflow:hidden; background-image:url(../images/clouds_header.jpg); background-position:left -125px; background-repeat:repeat-x;}
+.gamepage{ height:206px; background:url(../images/gtopbg.jpg) right bottom no-repeat;*height:210px;_height:209px;}
+.storyamepage{ height:206px; background:url(../images/myflash.jpg) right bottom no-repeat;*height:210px;_height:209px;}
+.kitepage{ height:30px;*height:30px;_height:30px;}
+.MainAutoPage{width:800px; margin:0px auto;/*min-height:712px;min-height:655px;*/min-height:625px;position:relative;}
+.MainAutoPage iframe{bottom:0px;position:absolute;}
+.newindex{ width:100%; height:100%; background:#141414 url(../images/Topimg09.jpg) center bottom repeat-x;}
+.bottom{ width:800px; height:90px; margin:0 auto;}
+.MainPageKite{width:800px; margin:0px auto; height:auto;text-align:center;}
+.borpage{ height:160px; background:url(../images/broad.jpg) center bottom no-repeat;}

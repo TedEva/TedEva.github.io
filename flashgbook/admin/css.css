@@ -1,0 +1,54 @@
+body {
+	background-color: #000000;
+	font-family:"lucida Grande",Verdana;
+	font-size: 12px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a {
+	font-family:"lucida Grande",Verdana;
+	font-size: 12px;
+}
+a:link {
+	color: 00ccff;
+}
+a:visited {
+	color: 00ccff;
+}
+a:hover {
+	color: 00ccff;
+}
+a:active {
+	color: #FFFFFF;
+}
+table {
+	font-family:"lucida Grande",Verdana;
+	font-size: 12px;
+	text-decoration: none;
+}
+.fonthei {
+	font-family:"lucida Grande",Verdana;
+	color: #000000;
+	text-decoration: none;
+}
+.input {
+	font-family:"lucida Grande",Verdana;
+	font-size: 12px;
+	border: 1px solid #FFFFFF;
+	background-color: #33ccff;
+}
+.inputbt {
+	font-family:"lucida Grande",Verdana;
+	font-size: 12px;
+	border: 0px solid #000000;
+	background-color: #99ffff;
+	padding-top: 2px;
+	padding-left: 1px;
+}
+.go1 {
+	background-color: #FFFFFF;
+	height: 17px;
+	width: 17px;
+	border: 0px solid;
+}
+.STYLE1 {color: #FF0000}

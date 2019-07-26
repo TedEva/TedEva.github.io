@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>welcome to lxqpage</title>
+<link href="style/pagestyle.css" rel="stylesheet" type="text/css" />
+<script src="Scripts/swfobject_modified.js" type="text/javascript"></script>
+<script src="Scripts/jquery-1.4.2.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript">
+function reinitIframe(){
+var iframe = document.getElementById("frame1");
+try{
+var bHeight = iframe.contentWindow.document.body.scrollHeight;
+var dHeight = iframe.contentWindow.document.documentElement.scrollHeight;
+var height = Math.max(bHeight, dHeight);
+iframe.height =  height;
+}catch (ex){}
+}
+    window.setInterval("reinitIframe()", 200);
+</script>
+<script type="text/javascript">
+function autoDiv(){
+ var node = $("body").height()-184 + "px";
+ $(".MainAutoPage").height(node);
+}</script>
+<script type="text/javascript">
+	
+    // speed in milliseconds
+	var scrollSpeed = 70;
+	
+	// set the default position
+	var current = 0;
+
+	// set the direction
+	var direction = 'h';
+
+	function bgscroll(){
+
+    	// 1 pixel row at a time
+	    current -= 1;
+   
+	    // move the background with backgrond-position css properties
+	    $('div.clouds').css("backgroundPosition", (direction == 'h') ? current+"px -125px" : "-125px " + current+"px");
+   
+	}
+
+	//Calls the scrolling function repeatedly
+	 setInterval("bgscroll()", scrollSpeed);	
+	
+	</script>
+</head>
+<body onresize="autoDiv();">
+<div class="bg">
+<div class="bgLeft">
+<div class="bgRight">
+<div class="leftbg">
+<div class="maintopbg">
+   <div class="flbg">
+    <div class="fcbg">
+      <div class="clouds">
+        <div class="pagetop">
+          <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="935" height="75">
+          <param name="movie" value="swf/logo.swf" />
+            <param name="quality" value="high" />
+			<param name="wmode" value="transparent">
+            <embed src="swf/logo.swf" wmode="transparent" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="935" height="75"></embed>
+          </object>
+        </div>
+      </div>
+     <div class="MainAutoPage">
+           <iframe id="frame1" width="100%" name="tt" scrolling="No" frameborder="0" src="mainindex.html" onload="this.height=100"></iframe>
+     </div>
+     <div class="bottom">
+     <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="800" height="90">
+          <param name="movie" value="swf/dibu.swf" />
+            <param name="quality" value="high" />
+			<param name="wmode" value="transparent">
+            <embed src="swf/dibu.swf" wmode="transparent" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="800" height="90"></embed>
+          </object>
+     </div>
+	 </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div><span id="preloader3"></span><span id="preloader4"></span></div>
+<script type="text/javascript">autoDiv();</script>
+</body>
+</html>
