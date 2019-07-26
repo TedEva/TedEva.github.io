@@ -59,4 +59,8 @@ body{ background:#fff url(../images/bg.jpg); margin:0; padding:0}
     .MainPage {
         zoom: 1.15;
     }
+    .gamepage {
+        background-position: 50% 100%;
+        background-size: contain;
+    }
 }
