@@ -11,7 +11,7 @@ a img {border: none; }
 /**/
 ul,li{list-style-type: none; padding:0; margin:0;}
 div,ul, ol, li, h1,h2, p{margin:0;padding:0}
-body{ background:#fff; margin:0; padding:0}
+body{ background:#fff; margin:0; padding:0;overflow: hidden;}
 .homePage{ width:850px;margin:0 auto; padding-top:70px;}
 .bgLeft{ background:url(../images/bg-left.jpg) no-repeat left top;}
 .bgRight{background:url(../images/bg-right.jpg) no-repeat right top;min-width: 1115px;}
