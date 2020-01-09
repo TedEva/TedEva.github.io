@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>我的看板娘</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/live2d.css" />
+    <script type="text/javascript" src="js/L2Dwidget.0.min.js"></script>
+    <script type="text/javascript" src="js/L2Dwidget.min.js"></script>
+    <style>
+        body {
+            font: normal 1em/1.45em "Helvetica Neue", Helvetica, Arial, sans-serif;
+            -webkit-font-smoothing: antialiased;
+            color: #fff;
+            background: -webkit-radial-gradient(ellipse at bottom, #1c2837 0%, #050608 100%);
+            background: radial-gradient(ellipse at bottom, #1c2837 0%, #050608 100%);
+            background-attachment: fixed;
+        }
+
+        #live2dcanvas {
+            border: 0 !important;
+        }
+    </style>
+    <script type="text/javascript" src="https://cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
+</head>
+
+<body>
+    <div id="landlord">
+        <div class="message" style="opacity:0"></div>
+    </div>
+    <script>
+        L2Dwidget.init({
+            "display": {
+                "superSample": 2,
+                "width": 350,
+                "height": 500,
+                "position": "right",
+                "hOffset": 0,
+                "vOffset": 0
+            }
+        });
+    </script>
+    <!-- 这个script就写在html里面，千万不要把它加入引用文件，因为它需要等页面渲染完毕再执行，不然可爱的看板娘不会出来哦 -->
+    <script type="text/javascript">
+        var message_Path = '/live2d/'
+        var home_Path = 'https://haremu.com/'
+    </script>
+    <script type="text/javascript" src="js/message.js"></script>
+</body>
+
+</html>
