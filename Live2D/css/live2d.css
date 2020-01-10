@@ -3,7 +3,7 @@
     position: fixed;
     right: 30px;
     bottom: 0;
-    width: 350px;
+    width: 320px;
     height: 500px;
     z-index: 10000;
     font-size: 0;
@@ -16,7 +16,7 @@
 
 .message {
     opacity: 0;
-    width: 370px;
+    width: 340px;
     height: auto;
     margin: auto;
     padding: 7px;
